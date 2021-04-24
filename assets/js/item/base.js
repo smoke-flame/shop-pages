@@ -1,0 +1,4 @@
+const yellowPictures = ["assets/img/sneaker.png", "assets/img/sneaker.png", "assets/img/sneaker.png", "assets/img/sneaker.png", "assets/img/sneaker.png"];
+const redPictures = ["assets/img/sneaker.png", "assets/img/sneaker.png", "assets/img/sneaker.png", "assets/img/sneaker.png", "assets/img/sneaker.png"];
+const pinkPictures = ["assets/img/sneaker.png", "assets/img/sneaker.png", "assets/img/sneaker.png", "assets/img/sneaker.png", "assets/img/sneaker.png"];
+const bluePictures = ["assets/img/sneaker.png", "assets/img/sneaker.png", "assets/img/sneaker.png", "assets/img/sneaker.png", "assets/img/sneaker.png"];

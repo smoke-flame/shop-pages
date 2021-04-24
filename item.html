@@ -35,11 +35,11 @@
           <div
             class="main__product__circle main__product__circle--second"
           ></div>
-          <div class="main__product__bg">
-            <div class="main__product__background">
-              <div class="main__product__background__photo">
-                <img src="assets/img/sneaker.png" alt="sneaker" />
-              </div>
+          <!-- carusel wrapper -->
+          <div class="main__product__carusel">
+            <!-- carusel body -->
+            <div class="main__product__carusel__transform">
+              <!-- carusel items -->
             </div>
           </div>
 
@@ -79,22 +79,34 @@
 
           <div class="info__color">
             <p class="info__color__text">Available Color:</p>
-            <div class="info__color__item info__color__item--yellow active">
+            <div
+              class="info__color__item info__color__item--yellow active"
+              data-counter="0"
+            >
               <div
                 class="info__color__item__body info__color__item__body--yellow"
               ></div>
             </div>
-            <div class="info__color__item info__color__item--red">
+            <div
+              class="info__color__item info__color__item--red"
+              data-counter="1"
+            >
               <div
                 class="info__color__item__body info__color__item__body--red"
               ></div>
             </div>
-            <div class="info__color__item info__color__item--pink">
+            <div
+              class="info__color__item info__color__item--pink"
+              data-counter="2"
+            >
               <div
                 class="info__color__item__body info__color__item__body--pink"
               ></div>
             </div>
-            <div class="info__color__item info__color__item--blue">
+            <div
+              class="info__color__item info__color__item--blue"
+              data-counter="3"
+            >
               <div
                 class="info__color__item__body info__color__item__body--blue"
               ></div>
@@ -155,8 +167,12 @@
         </div>
       </footer>
     </div>
+    <script src="assets/js/item/base.js" defer></script>
+    <script src="assets/js/item/pictures.js" defer></script>
+    <script src="assets/js/item/start.js" defer></script>
     <script src="assets/js/item/color.js" defer></script>
     <script src="assets/js/item/like.js" defer></script>
     <script src="assets/js/item/size.js" defer></script>
+    <script src="assets/js/item/slider.js" defer></script>
   </body>
 </html>

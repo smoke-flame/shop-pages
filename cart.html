@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/scss/style.css" />
+  </head>
+  <body class="cart">
+    <div class="container">
+      <div class="wrapper cart">
+        <!-- header -->
+        <header class="header cart">
+          <div class="header__menu">
+            <img src="assets/img/menu.svg" alt="menu" />
+          </div>
+          <div class="header__logo">
+            X<span class="header__logo--blue">E</span>
+          </div>
+          <div class="header__delete">
+            <img src="assets/img/delete.svg" alt="delete" />
+          </div>
+        </header>
+        <!-- main -->
+        <main class="main cart">
+          <div class="cart cart--parrent">
+            <div class="cart__container">
+              <!-- cards -->
+      
+
+            <div class="cart__total">
+              <div class="cart__total__subtotal">
+                Subtotal: <span>$1250</span>
+              </div>
+              <div class="cart__total__taxes">Taxes: <span>$40</span></div>
+            </div>
+          </div>
+        </main>
+        <!-- footer -->
+        <footer class="footer cart">
+          <div class="footer__inner">
+            <div class="footer__left">
+              <div class="footer__left__price">
+                <span class="footer__left__price__span">$</span>1290.00
+              </div>
+            </div>
+            <!-- footer__right--btn -->
+            <div class="footer__right footer__right--btn">
+              <div class="footer__right__button">
+                <button
+                  class="footer__right__button__item footer__right__button__item--checkout"
+                >
+                  <img
+                    class="footer__right__button__item__img"
+                    src="assets/img/checkout.svg"
+                    alt="checkout"
+                  />
+                  Check Out
+                </button>
+              </div>
+            </div>
+          </div>
+        </footer>
+      </div>
+    </div>
+    <script src="assets/js/cart/base.js" defer></script>
+    <script src="assets/js/cart/parse.js" defer></script>
+    <script src="assets/js/cart/main.js" defer></script>
+  </body>
+</html>

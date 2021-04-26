@@ -1,0 +1,42 @@
+let products = [{
+        background: '#fddfce',
+        photoSrc: 'assets/img/sneaker.png',
+        name: 'Nike Air Max 200',
+        price: '240.00',
+        quantity: 1,
+    },
+    {
+        background: '#fddfce',
+        photoSrc: 'assets/img/sneaker.png',
+        name: 'Nike Air Max 200',
+        price: '240.00',
+        quantity: 1,
+    },
+    {
+        background: '#fddfce',
+        photoSrc: 'assets/img/sneaker.png',
+        name: 'Nike Air Max 200',
+        price: '240.00',
+        quantity: 1,
+    }, {
+        background: '#fddfce',
+        photoSrc: 'assets/img/sneaker.png',
+        name: 'Nike Air Max 200',
+        price: '240.00',
+        quantity: 1,
+    },
+    {
+        background: '#fddfce',
+        photoSrc: 'assets/img/sneaker.png',
+        name: 'Nike Air Max 200',
+        price: '240.00',
+        quantity: 1,
+    },
+    {
+        background: '#fddfce',
+        photoSrc: 'assets/img/sneaker.png',
+        name: 'Nike Air Max 200',
+        price: '240.00',
+        quantity: 1,
+    },
+];

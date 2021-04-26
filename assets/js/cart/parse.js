@@ -13,7 +13,7 @@ function parseToHtml(array) {
         let card = document.createElement('div');
         card.classList.add('cart__item');
         let code = `
-        <div class="cart__item__photo style='background-color: ${item.background};">
+        <div class="cart__item__photo " style='background-color: ${item.background};'>
         <div class="cart__item__photo__mask">
           <div class="cart__item__photo__img">
             <img src="${item.photoSrc}" alt="sneaker" />

@@ -654,7 +654,6 @@ body.cart {
 .cart__item__photo {
   width: 70px;
   height: 70px;
-  background-color: #fddfce;
   border-radius: 50%;
   display: -webkit-box;
   display: -ms-flexbox;
